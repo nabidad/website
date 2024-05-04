@@ -1,0 +1,624 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+    background-color: #9e4554;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header p{
+    color: white;
+    font-size: 16px;
+}
+
+header p a{
+    color: white;
+    font-weight: bold;   
+}
+
+.right-text-container p {
+    margin-left: 600px;
+    position: absolute;
+    color: black;
+    margin-top: -8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* navigation bar */
+nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.item-nav{
+    display: flex; 
+    text-indent: 45px;
+    width: 86.8%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item-nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+#INSTAKHAADI{
+    color: black;
+    font-weight: bolder;
+}
+
+#SALE{
+    color: #Fd6500;
+}
+
+
+/* DROPDOWN */
+.dropbtn {
+    background-color: white;
+    color: #Fd6500;
+    padding: 16px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    margin-top: -9px;
+    margin-left: 54px;
+    height: 247px;
+    width: 425px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover{
+    text-decoration: underline;
+    color: black;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.images {
+    display: flex;
+}
+
+  .image-dropdown {
+    margin-left: -39px;
+    margin-top: 10px;
+  }
+
+  .image-dropdown2{
+    margin-left: -34px;
+    margin-top: 10px;
+
+  }
+
+  
+/* DROPDOWN  NEW IN*/
+
+.dropbtn2 {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  margin-top: -9px;
+  margin-left: 54px;
+  height: 247px;
+  width: 425px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.images2 {
+  display: flex;
+}
+
+.image-dropdown2 {
+  margin-left: -39px;
+  margin-top: 10px;
+}
+
+.image-dropdown2-2{
+  margin-left: -34px;
+  margin-top: 10px;
+
+}
+
+
+/* dropdown #instakhaadi */
+.dropbtn3 {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  padding: 16px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content3 {
+  margin-top: -9px;
+  margin-left: 54px;
+  height: 247px;
+  width: 425px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content3 a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.dropdown3:hover .dropdown-content3 {
+  display: block;
+}
+
+.images3 {
+  display: flex;
+}
+
+.image-dropdown3 {
+  margin-left: -39px;
+  margin-top: 10px;
+}
+
+.image-dropdown2-3{
+  margin-left: -34px;
+  margin-top: 10px;
+}
+
+/* dropdown fabric */
+.dropbtn4 {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  padding: 16px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content4 {
+  margin-top: -9px;
+  margin-left: -513px;
+  height: 281px;
+  width: 722px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown4:hover .dropdown-content4 {
+  display: block;
+}
+
+.images4 {
+  display: flex;
+}
+
+.image-dropdown2-4{
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.image-dropdown2-4 img{
+  width: 265px;
+}
+
+.text-essentials #t1{
+  font-size: 16px;
+  font-weight: bolder;
+  margin-left: -28px;
+}
+
+.text-essentials #t2 {
+  font-size: 14px;
+  margin-left: -84px;
+}
+.text-essentials #t3 {
+  font-size: 14px;
+  margin-left: -84px;
+}
+
+.text-signature #t4{
+  font-size: 16px;
+  margin-left: 65px;
+  font-weight: bolder;
+}
+
+.text-signature #t5{
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/* dropdown ready to wear */
+.dropbtn5 {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  padding: 16px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown5 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content5 {
+  margin-top: -9px;
+  margin-left: -513px;
+  height: 748px;
+  width: 1011px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown5:hover .dropdown-content5 {
+  display: block;
+}
+
+.images5 {
+  display: flex;
+}
+
+.image-dropdown2-5{
+  margin-left: 425px;
+  margin-top: 10px;
+}
+
+.image-dropdown2-5 img{
+  width: 411px;
+}
+
+/* text */
+.text-essentials5 {
+  display: inline;
+  margin-left: 100px;
+}
+.text-essentials5 #t6{
+  font-size: 16px;
+  font-weight: bolder;
+  margin-left: -172px;
+}
+
+.text-essentials5 #t7 {
+  font-size: 14px;
+  margin-left: -122px;
+}
+.text-essentials5 #t8 {
+  font-size: 14px;
+  margin-left: -223px;
+}
+
+.text-essentials5 #t9 {
+  font-size: 14px;
+  margin-left: -223px;
+}
+
+.text-essentials5 #t10 {
+  font-size: 14px;
+  margin-left: -223px;
+}
+
+.text-essentials5 #t11 {
+  font-size: 14px;
+  margin-left: -223px;
+}
+
+.text-essentials5 #t12 {
+  font-size: 14px;
+  margin-left: -223px;
+}
+
+.text-essentials5 #t13 {
+  font-size: 14px;
+  margin-left: -223px;
+}
+
+/* signature */
+.text-signature{
+  display: inline;
+  margin-left: 12px;
+}
+
+.text-signature #t14{
+  margin-left: 12px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+/* casual */
+.text-CASUAL{
+  display: inline;
+  margin-left: 12px;
+}
+
+.text-CASUAL #t20{
+  margin-left: 12px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.text-SMARTCASUAL{
+  display: inline;
+  margin-left: -513px;
+  margin-top: 271px;
+}
+
+
+.text-SMARTCASUAL #t52{
+  margin-left: 12px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+/* icons */
+.icons{
+  display: flex;
+  text-indent: 12px;
+  margin-left: -16px;
+}
+
+.icons #icon-search{
+  font-size: 24px;
+  cursor: pointer;
+}
+.icons #icon-heart{
+  font-size: 24px;
+  cursor: pointer;
+}
+.icons #icon-id{
+  font-size: 24px;
+  cursor: pointer;
+}
+.icons #icon-cart{
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Sections */
+
+.circle-cards{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.card-1{margin-right: 30px; display: grid;}
+.card-1 a{
+    margin-left: 17px;
+    margin-top: 4px;
+    text-decoration: underline;
+    color: black;
+    font-size: 14px;
+}
+
+.card-2{margin-right: 30px; display: grid;}
+.card-2 a{
+    margin-left: 17px;
+    margin-top: 4px;
+    text-decoration: underline;
+    color: black;
+    font-size: 14px;
+}
+
+.card-3{margin-right: 30px; display: grid;}
+.card-3 a{
+    margin-left: 17px;
+    margin-top: 4px;
+    text-decoration: underline;
+    color: black;
+    font-size: 14px;
+}
+
+.card-4{margin-right: 30px; display: grid;}
+.card-4 a{
+    margin-left: 17px;
+    margin-top: 4px;
+    text-decoration: underline;
+    color: black;
+    font-size: 14px;
+}
+
+.card-5{margin-right: 30px; display: grid;}
+.card-5 a{
+    margin-left: 17px;
+    margin-top: 4px;
+    text-decoration: underline;
+    color: black;
+    font-size: 14px;
+}
+
+.card-6{margin-right: 30px; display: grid;}
+.card-6 a{
+    margin-left: 17px;
+    margin-top: 4px;
+    text-decoration: underline;
+    color: black;
+    font-size: 14px;
+}
+
+
+/* section another */
+.filter-section{
+    display: flex;
+    margin-left: 30px;
+    /* width: 100%; */
+    margin-top: 50px;
+}
+
+#s-f{
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    border: 2px solid rgba(137, 137, 137, 0.461);
+    color: rgb(48, 47, 47);
+    margin-right: 30px;
+}
+
+#s-a{
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    border: 2px solid rgba(137, 137, 137, 0.461);
+    color: rgb(48, 47, 47);
+}
+
+#text-section-a{
+    margin-top: 7px;
+    margin-left: 38px;
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* Sections */
+
+.section-card{
+margin-top: 10px;
+}
+
+.card-main{
+    display: flex;
+    margin-left: 30px;
+}
+
+.card-1-s{
+    margin-right: 30px;
+    width: 400px;
+    padding: 12px;
+    height: 700px;
+}
+
+#text-1{
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#text-1-2{
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.card-1-s button{
+    margin-top: -12px;
+    background-color: #ff761b;
+    outline: none;
+    border: 1px solid #ff761b;
+    font-size: 12px;
+    border-radius: 12px;
+    height: 25px;
+}
+
+.card-main2{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+}
